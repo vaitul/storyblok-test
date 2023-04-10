@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import { StoryblokComponent, getStoryblokApi } from "@storyblok/react";
 type TProps = {
   story: {
-    name: string;
+    [x: string]: any;
   };
 };
 const Home: NextPage<TProps> = (props) => {
