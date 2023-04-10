@@ -32,7 +32,7 @@ export async function getStaticProps() {
   let slug = "home";
 
   // load the draft version
-  let sbParams = {
+  let sbParams:any = {
     version: process.env.VERSION_TYPE
   };
 
